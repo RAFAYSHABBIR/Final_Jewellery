@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   root: '.', // Ensure the root is the project directory
   build: {
-    outDir: 'dist', // Output folder for the build
+    outDir: 'build', // Change the output folder to 'build' to match Vercel's requirement
     rollupOptions: {
       input: './index.html', // Point to the correct location of index.html
     },
